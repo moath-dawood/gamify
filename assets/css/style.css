@@ -1,0 +1,924 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    --mainColor: rgb(111, 169, 255);
+    --secColor: rgba(233, 237, 240, 0.9);
+}
+body{
+    font-family: ubuntu;
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(/gamfiy/assets/Ubuntu-Regular.ttf);
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.nav{
+    margin-top: 10px;
+    height:80px;
+    width: 80%;
+    position:fixed;
+    overflow: hidden;
+    padding-top: 20px;
+    background-color:rgba(134, 171, 201, 0.8);
+    border-radius: 100px;
+    left: 10%;
+}
+.logo{ 
+    margin-top: 9px;
+    text-align: center;
+    float: left;
+    width: 40%;
+    color: var(--secColor);
+}
+
+.navbar1{
+    text-align: center;
+    margin-top: 6px;
+    width: 60%;
+    text-decoration:none;
+    float: right;
+    color: var(--secColor);
+    font-size: 20px;
+    margin: auto;
+}
+.nav .list{
+    list-style:none;
+}
+.list-item{
+    
+    display: inline-block;
+}
+.link-nav{
+    text-decoration:none;
+    color: var(--secColor);
+    text-transform: capitalize;
+    margin-right: 80px;
+}
+.pc-icon{
+    contain: size;
+}
+.pc-icon .link-nav{
+    margin-right: 280px;
+    font-size: 30px;
+    color: var(--mainColor);
+    contain: size;
+}
+.mobile-icon{
+    contain: size;
+}
+.mobile-icon .link-nav{
+    margin-left: 230px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: var(--mainColor);
+    contain: size;
+}
+.header-content{
+    background-image: url(/gamfiy/assets/images/image.jpg);
+    height: 759px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.header-content-items{
+    padding-top: 300px;
+    text-align: center;
+    color: var(--secColor);
+    background-position-y: 55px;
+}
+.main-title{
+    margin:auto;
+    text-transform: uppercase;
+    width: 45%;
+}
+.title-description{
+    margin:auto;
+    margin-top: 10px;
+    text-transform: capitalize;
+    width: 50%;
+}
+.link{
+    color: var(--secColor);
+    background-color: var(--mainColor);
+    text-decoration:none;
+    width:fit-content;
+    margin:auto;
+    margin-top: 35px;
+    padding: 20px;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+.button {
+    color: var(--secColor);
+    text-decoration:none;
+} 
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    height: 759px;
+}
+.categories{
+    width: -1%;
+    background-color: rgb(26, 98, 166);
+    padding: 101px;
+    padding-top:70px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: var(--secColor);
+    text-transform: capitalize;
+}
+.navbar2{
+    text-align: center;
+    width: 100%;
+    text-decoration:none;
+    margin-left: 20px;
+    color: var(--secColor);
+    margin-bottom: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+    float: left;
+}
+.action-icon{
+    margin-top: 5px;
+    margin-right: 70px;
+    font-size: 35px;
+}
+.sports-icon{
+    margin-top: 5px;
+    margin-right: 75px;
+    font-size: 35px;
+   }
+.horror-icon{
+    margin-top: 5px;
+    margin-right: 75px;
+    font-size: 35px;
+   }
+.strategy-icon{
+    margin-top: 5px;
+    margin-right: 75px;
+    font-size: 35px;
+}
+.puzzles-icon{
+    margin-top: 5px;
+    margin-right: 70px;
+    font-size: 35px;
+   }
+.adventure-icon{
+    margin-top: 5px;
+    margin-right: 70px;
+    font-size: 35px;
+   }
+.navbar2{
+    text-decoration:none;
+    color: var(--secColor);
+    text-transform: capitalize;
+}
+.navbar2 .list-item{
+    float: left;
+    width: 16.6%;
+}
+.action{
+    background-color: rgb(0, 132, 255);
+    text-align: center;
+    color: var(--secColor);
+
+}
+.action-title{
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secColor);
+}
+.action .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 720px;
+}
+.action-one{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/csgo.jpg);
+    background-repeat: no-repeat;
+}
+.action-one-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.action-one-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.action-one-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 132, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-action-one{
+    color: rgb(0, 132, 255);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 132, 255);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.action-barrier{
+    border-style: inset;
+    border-width: 40px;
+    border-color: steelblue;
+}
+.action-two{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/r6s.jpg);
+    background-repeat: no-repeat;
+}
+.action-two-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.action-two-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.action-two-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 132, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-action-two{
+    color: rgb(0, 132, 255);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 132, 255);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.span{
+    color: var(--secColor);
+    padding-top: 5px;
+}
+.border-two{     
+    border-style:outset;  
+    border-width: 40px;
+    border-right-color: rgb(0, 132, 255);  
+    border-bottom-color: rgb(0, 132, 255);  
+    border-top-color:rgb(40, 148, 250);
+    border-left-color: rgb(40, 148, 250);  
+}
+.border-one{     
+    border-style:inset;  
+    border-width: 40px;
+    border-right-color: rgb(0, 132, 255);  
+    border-bottom-color: rgb(0, 132, 255);  
+    border-top-color:rgb(40, 148, 250);
+    border-left-color: rgb(40, 148, 250);  
+} 
+.sports{
+    background-color: rgb(0, 88, 171);
+    text-align: center;
+    color: var(--secColor);
+
+}
+.sports-title{
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secColor);
+}
+.sports .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 720px;
+}
+.sports-one{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/fifa-21.jpg);
+    background-repeat: no-repeat;
+}
+.sports-one-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.sports-one-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.sports-one-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 88, 171);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-sports-one{
+    color: rgb(0, 88, 171);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 88, 171);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.sports-barrier{
+    border-style: inset;
+    border-width: 40px;
+    border-color: steelblue;
+}
+.sports-two{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/forza4.jpg);
+    background-repeat: no-repeat;
+}
+.sports-two-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.sports-two-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.sports-two-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 88, 171);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-sports-two{
+    color: rgb(0, 88, 171);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 88, 171);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.border-three{     
+    border-style:inset;  
+    border-width: 40px;
+    border-right-color: rgb(0, 132, 255);  
+    border-bottom-color: rgb(0, 132, 255);  
+    border-top-color:rgb(40, 148, 250);
+    border-left-color: rgb(40, 148, 250);  
+}
+.horror{
+background-color: rgb(0, 132, 255);
+    text-align: center;
+    color: var(--secColor);
+
+}
+.horror-title{
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secColor);
+}
+.horror .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 720px;
+}
+.horror-one{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/phasmophobia.jpg);
+    background-repeat: no-repeat;
+}
+.horror-one-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.horror-one-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.horror-one-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 132, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-horror-one{
+    color: rgb(0, 132, 255);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 132, 255);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.horror-barrier{
+    border-style: inset;
+    border-width: 40px;
+    border-color: steelblue;
+}
+.horror-two{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/outlast.jpg);
+    background-repeat: no-repeat;
+}
+.horror-two-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.horror-two-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.horror-two-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 132, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-horror-two{
+    color: rgb(0, 132, 255);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 132, 255);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.strategy{
+    background-color: rgb(0, 88, 171);
+    text-align: center;
+    color: var(--secColor);
+
+}
+.strategy-title{
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secColor);
+}
+.strategy .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 720px;
+}
+.strategy-one{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/aoe2.jpg);
+    background-repeat: no-repeat;
+}
+.strategy-one-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.strategy-one-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.strategy-one-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 88, 171);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-strategy-one{
+    color: rgb(0, 88, 171);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 88, 171);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.strategy-barrier{
+    border-style: inset;
+    border-width: 40px;
+    border-color: steelblue;
+}
+.strategy-two{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/civil.jpg);
+    background-repeat: no-repeat;
+}
+.strategy-two-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.strategy-two-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.strategy-two-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 88, 171);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-strategy-two{
+    color: rgb(0, 88, 171);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 88, 171);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.border-four{     
+    border-style: outset;
+    border-width: 40px;
+    border-right-color: rgb(0, 132, 255);
+    border-bottom-color: rgb(0, 132, 255);
+    border-top-color: rgb(40, 148, 250);
+    border-left-color: rgb(40, 148, 250);
+}
+.border-five{     
+    border-style:inset;  
+    border-width: 40px;
+    border-right-color: rgb(0, 132, 255);  
+    border-bottom-color: rgb(0, 132, 255);  
+    border-top-color:rgb(40, 148, 250);
+    border-left-color: rgb(40, 148, 250);  
+}
+.puzzles{
+background-color: rgb(0, 132, 255);
+    text-align: center;
+    color: var(--secColor);
+
+}
+.puzzles-title{
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secColor);
+}
+.puzzles .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 720px;
+}
+.puzzles-one{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/portal2.jpg);
+    background-repeat: no-repeat;
+}
+.puzzles-one-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.puzzles-one-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.puzzles-one-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 132, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-puzzles-one{
+    color: rgb(0, 132, 255);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 132, 255);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.puzzles-barrier{
+    border-style: inset;
+    border-width: 40px;
+    border-color: steelblue;
+}
+.puzzles-two{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/human.jpg);
+    background-repeat: no-repeat;
+}
+.puzzles-two-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.puzzles-two-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.puzzles-two-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 132, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-puzzles-two{
+    color: rgb(0, 132, 255);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 132, 255);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.adventure{
+    background-color: rgb(0, 88, 171);
+    text-align: center;
+    color: var(--secColor);
+
+}
+.adventure-title{
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secColor);
+}
+.adventure .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 720px;
+}
+.adventure-one{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/skyrim.jpg);
+    background-repeat: no-repeat;
+}
+.adventure-one-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.adventure-one-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.adventure-one-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 88, 171);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-adventure-one{
+    color: rgb(0, 88, 171);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 88, 171);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.adventure-barrier{
+    border-style: inset;
+    border-width: 40px;
+    border-color: steelblue;
+}
+.adventure-two{
+    margin-top: -2px;
+    height: 670px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(/gamfiy/assets/images/takes2.jpeg);
+    background-repeat: no-repeat;
+}
+.adventure-two-info{
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.adventure-two-video{
+    width: fit-content;
+    float: right;
+    padding-right: 100px;
+}
+.adventure-two-price{
+    text-transform: uppercase;
+    color:var(--secColor) ;
+    background-color: rgb(0, 88, 171);
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+    border-radius: 15px;
+    padding:15px;
+}
+.link-adventure-two{
+    color: rgb(0, 88, 171);
+    margin-top: 300px;
+    color: var(--secColor);
+    background-color: rgb(0, 88, 171);
+    text-decoration:none;
+    width:fit-content;
+    border-radius: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+}
+.border-six{     
+    border-style: outset;
+    border-width: 40px;
+    border-right-color: rgb(0, 132, 255);
+    border-bottom-color: rgb(0, 132, 255);
+    border-top-color: rgb(40, 148, 250);
+    border-left-color: rgb(40, 148, 250);
+}
+.footer{
+    padding-top: 50px;
+    background-color: var(--mainColor);
+    text-align: center;
+    color: var(--secColor);
+}
+.footer-main{
+     width: 49%;
+     margin:auto;
+     text-transform: capitalize;
+}
+.footer-contact{
+    margin: auto;
+    padding-top: 30px;
+    width: 50%;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+.footer-icons{
+    margin: auto;
+    font-size: 30px;
+    width:20%;
+    display:inline-block;
+    padding-bottom: 30px;
+}
+.mail-icon{
+    float: left;
+    width: 50%;
+    color: var(--mainColor);
+}
+.phone-icon{
+    float: left;
+    width: 50%;
+    color: var(--secColor);
+}
+.copyright{
+    text-transform: uppercase;
+    text-align: center;
+
+}
