@@ -11,7 +11,7 @@ body{
 }
 @font-face {
     font-family: ubuntu;
-    src: url(/gamfiy/assets/Ubuntu-Regular.ttf);
+    src: url(../Ubuntu-Regular.ttf);
 }
 .container{
     width: 100%;
@@ -79,7 +79,7 @@ body{
     contain: size;
 }
 .header-content{
-    background-image: url(/gamfiy/assets/images/image.jpg);
+    background-image: url(../images/image.jpg);
     height: 759px;
     width: 100%;
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body{
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/csgo.jpg);
+    background-image: url(../images/csgo.jpg);
     background-repeat: no-repeat;
 }
 .action-one-info{
@@ -252,7 +252,7 @@ body{
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/r6s.jpg);
+    background-image: url(../images/r6s.jpg);
     background-repeat: no-repeat;
 }
 .action-two-info{
@@ -332,7 +332,7 @@ body{
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/fifa-21.jpg);
+    background-image: url(../images/fifa-21.jpg);
     background-repeat: no-repeat;
 }
 .sports-one-info{
@@ -380,7 +380,7 @@ body{
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/forza4.jpg);
+    background-image: url(../images/forza4.jpg);
     background-repeat: no-repeat;
 }
 .sports-two-info{
@@ -448,7 +448,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/phasmophobia.jpg);
+    background-image: url(../images/phasmophobia.jpg);
     background-repeat: no-repeat;
 }
 .horror-one-info{
@@ -496,7 +496,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/outlast.jpg);
+    background-image: url(../images/outlast.jpg);
     background-repeat: no-repeat;
 }
 .horror-two-info{
@@ -556,7 +556,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/aoe2.jpg);
+    background-image: url(../images/aoe2.jpg);
     background-repeat: no-repeat;
 }
 .strategy-one-info{
@@ -604,7 +604,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/civil.jpg);
+    background-image: url(../images/civil.jpg);
     background-repeat: no-repeat;
 }
 .strategy-two-info{
@@ -680,7 +680,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/portal2.jpg);
+    background-image: url(../images/portal2.jpg);
     background-repeat: no-repeat;
 }
 .puzzles-one-info{
@@ -728,7 +728,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/human.jpg);
+    background-image: url(../images/human.jpg);
     background-repeat: no-repeat;
 }
 .puzzles-two-info{
@@ -788,7 +788,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/skyrim.jpg);
+    background-image: url(../images/skyrim.jpg);
     background-repeat: no-repeat;
 }
 .adventure-one-info{
@@ -836,7 +836,7 @@ background-color: rgb(0, 132, 255);
     height: 670px;
     padding-bottom: 50px;
     background-size: cover;
-    background-image: url(/gamfiy/assets/images/takes2.jpeg);
+    background-image: url(../images/takes2.jpeg);
     background-repeat: no-repeat;
 }
 .adventure-two-info{
